@@ -1,0 +1,176 @@
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4,{
+  font-family:'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+  p{
+    color: #787A91;
+  }
+
+
+/* NAV */
+
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 2.5;
+  font-weight: bold;
+}
+.nav-item{
+  padding-left: 300px;
+}
+
+.title-image{
+width: 19%;
+transform: rotate(25deg);
+position: absolute;
+z-index: inherit;
+}
+
+.big-heading{
+  font-family:'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#fff;
+}
+
+.container-fluid{
+  padding: 3% 15%
+}
+
+
+/* download button */
+.download-button{
+margin: 5% 3% 5% 0;
+}
+
+/* feature */
+.row{
+  padding: 5% 9%;
+  text-align: center;
+}
+
+#features{
+background-color: #fff;
+padding: 7% 1;
+position: relative;
+z-index: 1;
+}
+
+
+/* icon */
+
+.icon {
+  color: #EFB7B7;
+  padding-bottom: 4%
+}
+
+.icon:hover{
+  color: #FF94CC;
+}
+
+/* testimonials */
+
+.dog-image{
+  border-radius: 50%
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color:  #FF94CC;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat-black',sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+/* title */
+
+#title{
+  background-color: #FF94CC;
+  text-align: left;
+}
+
+@media (max-width:1020px) {
+
+#title{
+  text-align: center;
+}
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+/* section */
+
+.color-section{
+background-color:  #FF94CC;
+
+}
+
+.white-section{
+color: #fff;
+}
+
+/* PRESS */
+
+#press{
+  background-color: #FF94CC;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-image{
+  margin: 20px 20px, 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text{
+  font-family: 'Montserrat-black',sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.pricing-column{
+padding: 7% 3%;
+}
+
+/* CTA */
+
+#cta{
+  padding-top: 4%;
+  text-align: center;
+  background-color: #FF94CC;
+  font-family:'Montserrat-black', sans-serif;
+  color: #fff;
+}
+/* Footer */
+
+#footer{
+  padding-top: 8%;
+  text-align: center;
+}
+
+.social-icon{
+  margin:20px 10px;
+  color: #000;
+}
